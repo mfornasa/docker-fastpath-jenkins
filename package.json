@@ -1,0 +1,15 @@
+{
+  "name": "docker-fastpath-travis",
+  "version": "0.1",
+  "description": "Docker FastPath template for TravisCI",
+  "main": "index.js",
+  "repository": "https://github.com/mfornasa/docker-fastpath-travis.git",
+  "author": "Martino Fornasa <mf@fornasa.it>",
+  "license": "GPL-2.0",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
