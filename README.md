@@ -1,6 +1,6 @@
 # Docker FastPath - Jenkins
 
-This repository shows how to implement [Docker FastPath](https://github.com/mfornasa/docker-fastpath) using [Jenkins](https://jenkins.io/). For an introduction to Docker FastPath, please read my [blog post](???).
+This repository shows how to implement [Docker FastPath](https://github.com/mfornasa/docker-fastpath) using [Jenkins](https://jenkins.io/). For an introduction to Docker FastPath, please read my [blog post](https://medium.com/@mfornasa/docker-fastpath-only-build-your-images-once-a4c3beeae7d3).
 
 The repository contains a mokcup Node.js application, but the approach is applicable to any application based on Docker and built on Jenkins.  The procedure assumes that you have an account on Docker Hub (they offer a free 1-image plan), but you can use your own private Docker registry (standalone, AWS ECR, etc.). I you prefer to use Travis CI, see the [Travis CI version](https://raw.githubusercontent.com/mfornasa/docker-fastpath-travis).
 
@@ -85,5 +85,5 @@ Deploy xxxx/test:b3a9d4c658f9d228da28fedb1af39de4869ac9af (placeholder)
 
 Super-fast, and no risks of introducing untested errors in you deploy.
 
-This is a simplified example: FastPath is going to detect every case in which the pushed codebase is identical to a codebase alredy built in the past. See this [blog post](??) for some examples.
+This is a simplified example: FastPath is going to detect every case in which the pushed codebase is identical to a codebase alredy built in the past. See this [blog post](https://medium.com/@mfornasa/docker-fastpath-only-build-your-images-once-a4c3beeae7d3) for some examples.
 
